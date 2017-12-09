@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/typenil/metablink-api/app/api"
+	"github.com/metablink/stackly-api/app/api"
 	"gopkg.in/gin-gonic/gin.v1"
 )
 

@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"net/http/httptest"
 
+	"github.com/metablink/stackly-api/app/api"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/typenil/metablink-api/app/api"
 	"gopkg.in/gin-gonic/gin.v1"
 )
 

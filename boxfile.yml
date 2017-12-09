@@ -1,5 +1,7 @@
 run.config:
   engine: golang
   engine.config:
-    fetch: go get -t ./...
-    package: github.com/metablink/stackly-api
+    package: 'github.com/metablink/stackly-api'
+    runtime: go-1.9
+    fetch: 'go get -t ./...'
+    build: 'go build -o stackly'

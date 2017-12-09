@@ -4,6 +4,9 @@ run-local:
 run:
 	nanobox run go run main.go
 
+link:
+	nanobox remote add stackly
+
 deploy:
 	nanobox deploy
 
@@ -11,7 +14,7 @@ build-deps:
 	godep save ./...
 
 dns:
-	nanobox dns add local local.stackly.mtbl.ink
+	nanobox dns add local stackly.dev
 
 test-local:
 	ginkgo ./test/...
