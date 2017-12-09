@@ -1,0 +1,5 @@
+run.config:
+  engine: golang
+  engine.config:
+    fetch: go get -t ./...
+    package: github.com/metablink/stackly-api
